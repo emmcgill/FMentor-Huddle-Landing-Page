@@ -1,0 +1,84 @@
+:root {
+    --clr-pink: hsl(322, 100%, 66%);
+    --clr-neu-very-pale-cyan: hsl(193, 100%, 96%);
+    --clr-neu-very-dark-cyan: hsl(192, 100%, 9%);
+    --clr-neu-grayish-blue: hsl(208, 11%, 55%);
+    --ff-open-sans: 'Open Sans', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+    --fs-18: 18px;
+
+}
+
+.hero {
+    background-color: var(--clr-neu-very-pale-cyan);
+    padding: 2.5rem 1.5rem;
+    font-family: var(--ff-open-sans);
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: none;
+    background-size: 500px;
+}
+
+.hero > .hero-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.hero > .hero-nav > img {
+    height: 25px;
+}
+
+.hero > .hero-nav > .try-free {
+    background-color: white;
+    text-decoration: none;
+    padding: .5rem 2.5rem;
+    border-radius: 30px;
+    color: var(--clr-neu-very-dark-cyan);
+    font-weight: 600;
+}
+
+.hero > .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .hero-left > .hero-title {
+    text-align: center;
+    font-size: 2.25rem;
+    max-width: 400px;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+
+}
+
+.hero > .hero-left > .hero-sub-title {
+    text-align: center;
+    max-width: 450px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.hero > .hero-left > .get-started {
+    background-color: var(--clr-pink);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem 7rem;
+    border-radius: 30px;
+    margin-bottom: 5rem;
+}
+
+.hero > .hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+.hero > .hero-right > img {
+    height: 350px;
+    margin-bottom: 1rem;
+}

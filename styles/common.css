@@ -1,0 +1,15 @@
+:root {
+    --clr-pink: hsl(322, 100%, 66%);
+    --clr-neu-very-pale-cyan: hsl(193, 100%, 96%);
+    --clr-neu-very-dark-cyan: hsl(192, 100%, 9%);
+    --clr-neu-grayish-blue: hsl(208, 11%, 55%);
+    --ff-open-sans: 'Open Sans', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+    --fs-18: 18px;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
